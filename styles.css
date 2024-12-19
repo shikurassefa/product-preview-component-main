@@ -16,6 +16,7 @@ body
   font-family: "Figtree", serif;
 display: flex;
 flex-direction: column;
+justify-content: center;
 padding: .5rem .6rem;
 background-color: var(--Cream);
 
@@ -25,6 +26,7 @@ header .perfume
 {
 max-width: 280px;
 display: block;
+margin: 0 auto;
   border-top-right-radius: .7rem;
   border-top-left-radius: .7rem;
 }
@@ -32,6 +34,7 @@ main
 {
     background-color: #fff;
     width: 280px;
+    margin: 0 auto;
   display: flex;
   flex-direction: column;
 padding: 1rem;
@@ -104,13 +107,14 @@ height: 100vh;
 header .perfume
 {
 height: 372px;
+margin: 0;
 border-top-right-radius: 0;
 border-bottom-left-radius: 0.7rem;
 }
 main 
 {
   border-top-right-radius: 0.7rem;
-
+margin: 0;
   border-bottom-left-radius: 0;
 }
 }
