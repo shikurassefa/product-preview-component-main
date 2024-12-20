@@ -11,9 +11,11 @@
 ###############################################
 *.xd
 
-# Avoid your project being littered with annoying .DS_Store files!
+# Avoid your project being littered with annoying .DS_Store files!git sta
 .DS_Store
 .prettierignore
 
 # design
-/images
+.md
+# does not ignore the README.md file
+!README-template.md
