@@ -19,3 +19,6 @@
 .md
 # does not ignore the README.md file
 !README-template.md
+
+# 
+images/
